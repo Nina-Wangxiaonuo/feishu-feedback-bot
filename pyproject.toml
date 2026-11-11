@@ -1,0 +1,9 @@
+[project]
+name = "feishu-feedback-bot"
+version = "0.1.0"
+description = "定时读取飞书多维表格、聚类反馈并发送群日报"
+requires-python = ">=3.11"
+dependencies = ["Pillow>=10"]
+
+[project.scripts]
+feedback-bot = "feedback_bot.main:main"
